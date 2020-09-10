@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MD9K4XC');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ming.github.io</title>
+    <meta name="description" content="A test page.">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD9K4XC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<form action="https://www.lancome.jp/on/demandware.store/Sites-lancome-jp-Site/ja_JP/Product-Variation/C1416480644" method="post" id="dwfrm_product_addtocart_d0jdrmnmndno" class="pdpForm pdpForm js_addtocartform" data-engraving-action="/on/demandware.store/Sites-lancome-jp-Site/ja_JP/Engraving-AddMessages">
+  <div class="pdp__price-holder">
+    <div class="pdp__price-lable">
+      <div class="price product-tile__price pdp__main-price ">
+        <p class="product_price price_sale product-price__inner-sale product-price__inner" title="" data-pricevalue="13200.0">
+          13,200円<span class="tax-included-suffixed">（税込）</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</form>
+    <script language="javascript">
+        $(".btn-add-to-cart").click(function(){
+            console.log("click 1");
+        });
+    </script>
+</body>
+</html>
