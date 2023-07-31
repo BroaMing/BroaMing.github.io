@@ -12,14 +12,15 @@
   //gtag('set', 'allow_ad_personalization_signals', false);
   gtag('js', new Date());
   //gtag('config', 'AW-123456789', {'allow_ad_personalization_signals': false});
-  gtag('config', 'AW-11157724950', {
-    'cookie_prefix': '_gcl_travel_test_mcc',
-    'linker': {
-    'domains': [
-      'travel.rakuten.co.jp',
-      'broaming.github.io'
-    ]}
-  });
+gtag('config', 'AW-11157724950', {
+'cookie_prefix': '_gcl_travel_test_mcc',
+'allow_ad_personalization_signals': false,  //NTA様側でユーザトラッキングしたくない場合に必要
+'linker': {
+  'domains': [
+    'travel.rakuten.co.jp',
+    'broaming.github.io'
+  ]}
+});
     
   // gtag('config', 'AW-708133504', {'cookie_prefix': '_gcl_travel_dpana_mcc'});
   // //ANA Conversion Tracking
