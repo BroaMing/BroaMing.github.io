@@ -7,11 +7,19 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('set', 'linker', {'domains': ['broaming.github.io','127.0.0.1']});
+  //gtag('set', 'linker', {'domains': ['broaming.github.io','127.0.0.1']});
   //gtag('set', {'cookie_flags': 'Secure'});
   //gtag('set', 'allow_ad_personalization_signals', false);
   gtag('js', new Date());
-  gtag('config', 'AW-123456789', {'allow_ad_personalization_signals': false});
+  //gtag('config', 'AW-123456789', {'allow_ad_personalization_signals': false});
+  gtag('config', 'AW-11157724950', {
+    'cookie_prefix': '_gcl_travel_test_mcc',
+    'linker': {
+    'domains': [
+      'travel.rakuten.co.jp',
+      'broaming.github.io'
+    ]}
+  });
     
   // gtag('config', 'AW-708133504', {'cookie_prefix': '_gcl_travel_dpana_mcc'});
   // //ANA Conversion Tracking
