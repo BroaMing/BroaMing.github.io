@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11442209568"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11442209568');
+</script>
+
+<script>
+  $(document).ready(function() {
+    (function () {
+      // let gtagEmail = $("form[name='_wdForm'] th:contains('メールアドレス')").next("td").text();
+      // let gtagMobile = $("form[name='_wdForm'] div:contains('携帯電話')").next("div").text();
+      // let gtagLandline = $("form[name='_wdForm'] div:contains('自宅電話')").next("div").text();
+      // let gtagPhone = null;
+
+      // gtagEmail = gtagEmail.replaceAll("\\n", "").toLowerCase().trim();
+      // gtagMobile = gtagMobile.replaceAll("\\n", "").replaceAll("-", "").trim();
+      // gtagLandline = gtagLandline.replaceAll("\\n", "").replaceAll("-", "").trim();
+      // gtagPhone = gtagMobile.length>0?gtagMobile:gtagLandline;
+      gtagPhone = "+81" + Number(gtagPhone);
+
+      let gtagEmail = "testtest@gmail.com";
+      let gtagPhone = "+818043210001";
+
+      gtag('set', 'user_data', {
+        "email": gtagEmail,
+        "phone_number": gtagPhone
+      });
+
+      gtag('event', 'form_submit', {'send_to': 'AW-11442209568'});
+    })();
+  });
+</script>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ming.github.io</title>
+  <meta name="description" content="A test page.">
+</head>
+<body>
+  gTag Tester
+</body>
+</html>
