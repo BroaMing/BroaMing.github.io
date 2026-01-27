@@ -16,7 +16,10 @@
         ordNo: 'test_order_1'
     };
     //Initialization
+    window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
     gtag('config', 'AW-362582935');
 
     //Sample Script
