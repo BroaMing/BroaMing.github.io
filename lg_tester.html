@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-362582935"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ming.github.io</title>
+    <meta name="description" content="A test page.">
+</head>
+<body>
+<script language="javascript">
+    var totPrice = 1000;
+    var orderData = {
+        ordNo: 'test_order_1'
+    };
+    
+    var google_user_data = {
+      sha256_phone_number: '73c4866b56084177c3341bb12494019465a2fde2145bdb59d94b6e853c513405'
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-362582935/2_-qCIWdrZQYEJen8qwB',
+      'value': totPrice,
+      'currency': 'KRW',
+      'transaction_id': orderData.ordNo,
+      'user_data': google_user_data
+    });
+</script>
+</form>
+</body>
+</html>
