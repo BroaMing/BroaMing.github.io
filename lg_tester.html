@@ -10,11 +10,16 @@
 </head>
 <body>
 <script language="javascript">
+    //Required Parameters
     var totPrice = 1000;
     var orderData = {
         ordNo: 'test_order_1'
     };
-    
+    //Initialization
+    function gtag(){dataLayer.push(arguments);}
+    gtag('config', 'AW-362582935');
+
+    //Sample Script
     var google_user_data = {
       sha256_phone_number: '73c4866b56084177c3341bb12494019465a2fde2145bdb59d94b6e853c513405'
     };
